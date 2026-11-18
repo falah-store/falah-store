@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>فلاح ستور | تنزيل برامج وتطبيقات FALAH STORE</title>
+<meta name="description" content="الموقع الرسمي لفلاح ستور لتنزيل برامج وتطبيقات فلاح ستور ومشغلات التلفاز والهواتف والشاشات الذكية.">
+<meta name="keywords" content="فلاح ستور, تنزيل برامج فلاح ستور, تطبيقات فلاح ستور, تنزيل فلاح ستور, تحميل برامج فلاح ستور, FALAH STORE APK">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://falah11hassn11-beep.github.io/-./">
+<meta property="og:title" content="فلاح ستور | تنزيل البرامج والتطبيقات">
+<meta property="og:description" content="حمّل برامج وتطبيقات فلاح ستور من الموقع الرسمي.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://falah11hassn11-beep.github.io/-./">
+<meta property="og:image" content="https://falah11hassn11-beep.github.io/-./falah-logo.jpg">
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+
+body{
+font-family:Tahoma,Arial,sans-serif;
+background:#0b0f19;
+color:white;
+line-height:1.8;
+}
+
+header{
+background:#111827;
+padding:15px 5%;
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:20px;
+}
+
+.logo img{
+width:55px;
+height:55px;
+object-fit:contain;
+}
+
+nav{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{color:#00d084}
+
+.hero{
+padding:35px 5%;
+text-align:center;
+}
+
+.hero-image{
+width:100%;
+max-width:900px;
+border-radius:20px;
+display:block;
+margin:0 auto 30px;
+}
+
+.hero h1{font-size:34px}
+.hero h1 span{color:#00d084}
+.hero p{color:#cbd5e1;font-size:18px}
+
+section{padding:45px 5%}
+
+.title{
+text-align:center;
+margin-bottom:30px;
+}
+
+.title h2{font-size:30px}
+.title p{color:#94a3b8}
+
+.category-title{
+text-align:center;
+color:#00d084;
+font-size:25px;
+margin:35px 0 20px;
+}
+
+
+/* الأقسام القابلة للفتح والإغلاق */
+.collapsible-title{
+  cursor:pointer;
+  user-select:none;
+  position:relative;
+  padding:15px 45px 15px 15px;
+  border-radius:14px;
+  transition:.3s;
+}
+
+.collapsible-title::after{
+  content:'＋';
+  position:absolute;
+  right:15px;
+  top:50%;
+  transform:translateY(-50%);
+  font-size:25px;
+}
+
+.collapsible-title.open::after{
+  content:'−';
+}
+
+.collapsible-content{
+  display:none;
+}
+
+.collapsible-content.open{
+  display:block;
+}
+
+/* إخفاء أسعار كل بطاقة بالبداية */
+.program-card .program-prices{
+  display:none;
+}
+
+.program-card.open .program-prices{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.program-card{
+  cursor:pointer;
+}
+
+.program-cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+gap:20px;
+max-width:1100px;
+margin:auto;
+}
+
+.program-card{
+background:#111827;
+border:1px solid #263244;
+border-radius:18px;
+padding:25px;
+text-align:center;
+}
+
+.program-icon{font-size:42px}
+
+.program-card h3{
+font-size:21px;
+margin:10px 0;
+}
+
+.program-desc{color:#cbd5e1}
+
+.program-button,
+.whatsapp{
+display:inline-block;
+background:#00d084;
+color:#06100c;
+padding:10px 22px;
+border-radius:10px;
+text-decoration:none;
+font-weight:bold;
+margin-top:15px;
+}
+
+.prices{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:18px;
+max-width:1000px;
+margin:auto;
+}
+
+.price{
+background:#111827;
+border:1px solid #263244;
+border-radius:16px;
+padding:22px;
+text-align:center;
+}
+
+.price strong{
+display:block;
+font-size:25px;
+color:#00d084;
+}
+
+.contact{
+text-align:center;
+background:#111827;
+}
+
+.contact p{
+margin:8px 0;
+color:#cbd5e1;
+}
+
+footer{
+text-align:center;
+padding:25px;
+color:#94a3b8;
+background:#080c14;
+}
+
+@media(max-width:600px){
+header{flex-direction:column}
+nav{justify-content:center}
+.hero h1{font-size:27px}
+}
+</style>
+
+<style>
+.falah-slider {
+  width: 100%;
+  max-width: 1100px;
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: 18px;
+  position: relative;
+}
+
+.falah-slide {
+  width: 100%;
+  display: none;
+  height: auto;
+}
+
+.falah-slide.active {
+  display: block;
+}
+</style>
+
+</head>
+
+<body>
+<header>
+<div class="logo">
+<img src="logo.png" alt="فلاح ستور">
+</div>
+
+<nav>
+<a href="#home">الرئيسية</a>
+<a href="#programs">البرامج</a>
+<a href="#prices">الأسعار</a>
+<a href="#contact">تواصل معنا</a>
+</nav>
+</header   
+  
+
+<section class="hero" id="home">
+
+<img class="hero-image" src="hero.png" alt="فلاح ستور">
+
+<h1>أهلاً بكم في <span>فلاح ستور</span></h1>
+<div class="falah-slider">
+  <img src="1.jpg" alt="فلاح ستور" class="falah-slide active">
+  <img src="2.jpg" alt="فلاح ستور" class="falah-slide">
+  <img src="3.jpg" alt="فلاح ستور" class="falah-slide">
+  <img src="4.jpg" alt="فلاح ستور" class="falah-slide">
+  <img src="5.jpg" alt="فلاح ستور" class="falah-slide">
+  <img src="6.jpg" alt="فلاح ستور" class="falah-slide">
+</div>
+
+<script>
+const slides = document.querySelectorAll(".falah-slide");
+let currentSlide = 0;
+
+setInterval(function () {
+  slides[currentSlide].classList.remove("active");
+  currentSlide = (currentSlide + 1) % slides.length;
+  slides[currentSlide].classList.add("active");
+}, 3000);
+</script>
+
+
+
+<section style="padding:25px 15px;">
+  <div style="background:#fff;border-radius:18px;padding:20px;text-align:center;box-shadow:0 5px 20px rgba(0,0,0,.12);max-width:400px;margin:auto;">
+    
+    <img src="najoom.png"
+         alt="شبكة نجوم الرابعة"
+         style="width:65px;height:65px;object-fit:contain;margin-bottom:10px;">
+
+    <h2 style="margin:5px 0;">شبكة نجوم الرابعة</h2>
+
+    <p style="font-size:18px;margin:10px 0;">
+      اشتراك شهر واحد
+    </p>
+
+    <div style="font-size:28px;font-weight:bold;margin:15px 0;">
+      25,000 د.ع
+    </div>
+
+    <button style="background:#16a34a;color:white;border:0;border-radius:10px;padding:12px 30px;font-size:17px;cursor:pointer;">
+<a href="https://wa.me/9647803734579?text=أريد%20اشتراك%20شبكة%20نجوم%20الرابعة%20شهر%20واحد%20بسعر%2025%20ألف%20دينار"
+   target="_blank"
+   style="display:inline-block;background:#16a34a;color:white;text-decoration:none;border-radius:10px;padding:12px 30px;font-size:17px;">
+  اشترك الآن
+</a>
+    </button>
+
+  </div>
+</section></section>
+<section id="programs">
+
+<div class="title">
+<h2>برامجنا</h2>
+<p>اختر الخدمة المناسبة لك</p>
+</div>
+
+<h2 class="category-title">البث الأرضي</h2>
+
+<div class="program-cards">
+
+<div class="program-card">
+<div class="program-icon">
+<img src="najoom.png" alt="شبكة نجوم الرابعة" style="width:80px;height:80px;object-fit:contain;">
+</div>
+<h3>شبكة نجوم الرابعة</h3>
+<p class="program-desc">شبكة للبث والقنوات الرياضية والترفيهية</p>
+<div class="program-prices">
+<button onclick="addToCart('نجوم الرابعة - شهر واحد',25000)">🛒 شهر واحد - 25,000 د.ع</button>
+<button onclick="addToCart('نجوم الرابعة - 3 أشهر',65000)">🛒 3 أشهر - 65,000 د.ع</button>
+<button onclick="addToCart('نجوم الرابعة - 6 أشهر',95000)">🛒 6 أشهر - 95,000 د.ع</button>
+</div>
+</div>
+
+<div class="program-card">
+<div class="program-icon">
+<img src="yanabee.jpeg.jpeg" alt="شبكة ينابيع سومر" style="width:80px;height:80px;object-fit:contain;">
+</div>
+<h3>شبكة ينابيع سومر</h3>
+<p class="program-desc">بث القنوات الرياضية والترفيهية</p>
+<div class="program-prices">
+<button onclick="addToCart('ينابيع سومر - شهر واحد',25000)">🛒 شهر واحد - 25,000 د.ع</button>
+<button onclick="addToCart('ينابيع سومر - 3 أشهر',65000)">🛒 3 أشهر - 65,000 د.ع</button>
+<button onclick="addToCart('ينابيع سومر - 6 أشهر',95000)">🛒 6 أشهر - 95,000 د.ع</button>
+</div>
+</div>
+
+<div class="program-card">
+<div class="program-icon"><img src="qamar.jpeg.jpeg" alt="شبكة قمر النوارس" style="width:80px;height:80px;object-fit:contain;"></div>
+<h3>شبكة قمر النوارس</h3>
+<p class="program-desc">بث القنوات الرياضية والترفيهية</p>
+<div class="program-prices">
+<button onclick="addToCart('قمر النوارس - شهر واحد',25000)">🛒 شهر واحد - 25,000 د.ع</button>
+<button onclick="addToCart('قمر النوارس - 3 أشهر',65000)">🛒 3 أشهر - 65,000 د.ع</button>
+<button onclick="addToCart('قمر النوارس - 6 أشهر',95000)">🛒 6 أشهر - 95,000 د.ع</button>
+</div>
+</div>
+
+</div>
+
+<h2 class="category-title">في أي بي IPTV</h2>
+
+<div class="program-cards">
+
+<div class="program-card">
+<div class="program-icon"><img src="max.png.jpeg" alt="برامج ماكس" style="width:80px;height:80px;object-fit:contain;"></div>
+<h3>برامج ماكس</h3>
+<p class="program-desc">يعمل عبر الإنترنت ويدعم مختلف الأجهزة</p>
+<div class="program-prices">
+<p style="color:#00d084;font-weight:bold;">🎁 تجريبي 12 ساعة مجاناً</p>
+<button onclick="addToCart('ماكس - شهر واحد',6000)">🛒 شهر واحد - 6,000 د.ع</button>
+<button onclick="addToCart('ماكس - 3 أشهر',12000)">🛒 3 أشهر - 12,000 د.ع</button>
+<button onclick="addToCart('ماكس - 6 أشهر',17000)">🛒 6 أشهر - 17,000 د.ع</button>
+<button onclick="addToCart('ماكس - سنة كاملة',30000)">🛒 سنة كاملة - 30,000 د.ع</button>
+<button onclick="addToCart('ماكس - الباقة المفتوحة - 6 أشهر',30000)">🛒 الباقة المفتوحة - 6 أشهر - 30,000 د.ع</button>
+<button onclick="addToCart('ماكس - الباقة المفتوحة - سنة كاملة',45000)">🛒 الباقة المفتوحة - سنة كاملة - 45,000 د.ع</button>
+</div>
+</div>
+
+<div class="program-card">
+<div class="program-icon"><img src="Ted.jpeg" alt="TOD" style="width:80px;height:80px;object-fit:contain;"></div>
+<h3>TOD</h3>
+<p class="program-desc">لمتابعة المباريات والدوريات عبر الإنترنت</p>
+<div class="program-prices">
+
+
+<h4>الباقة العادية</h4>
+<button onclick="addToCart('TOD - شهر واحد',15000)">🛒 شهر واحد - 15,000 د.ع</button>
+<button onclick="addToCart('TOD - 3 أشهر',38000)">🛒 3 أشهر - 38,000 د.ع</button>
+<button onclick="addToCart('TOD - 6 أشهر',55000)">🛒 6 أشهر - 55,000 د.ع</button>
+<button onclick="addToCart('TOD - سنة كاملة',80000)">🛒 سنة كاملة - 80,000 د.ع</button>
+
+<h4>الباقة المفتوحة</h4>
+</div>
+</div>
+
+</div>
+
+<h2 class="category-title">تطبيقات فلاح ستور</h2>
+
+<div class="program-cards">
+
+<div class="program-card">
+<div class="program-icon">
+<img src="logo.png" alt="Falah TV" style="width:80px;height:80px;object-fit:contain;">
+</div>
+
+<h3>Falah TV</h3>
+
+<p class="program-desc">تطبيق فلاح ستور لأجهزة التلفزيون لمشاهدة المحتوى عبر الإنترنت</p>
+
+<div class="program-prices">
+
+<a class="program-button"
+href="https://github.com/falah11hassn11-beep/apks/releases/download/v1.0/_FALAH_TV_signed.apk">
+📺 تحميل Falah TV للشاشات
+</a>
+
+</div>
+</div>
+
+</div>
+
+<h2 class="category-title">منظومات البث</h2>
+
+<div class="program-cards">
+
+<div class="program-card">
+<div class="program-icon">📡</div>
+<img src="T.jpg" alt="منظومات بث القنوات الرياضية والترفيهية" style="width:100%;height:180px;object-fit:cover;border-radius:12px;margin-bottom:12px;">
+<h3>منظومات بث القنوات الرياضية والترفيهية</h3>
+<p class="program-desc">بكج كامل يشمل جهاز رسيفر + اشتراك + أريل هوائي + سلك الإشارة</p>
+
+
+<a class="program-button"
+href="https://wa.me/9647803734579?text=السلام%20عليكم،%20أريد%20الحصول%20على%20منظومة%20بث%20كاملة">
+الحصول على منظومة كاملة
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+
+<div class="title">
+<h2>تواصل معنا</h2>
+<p>للاشتراك والاستفسار</p>
+</div>
+
+<p>📱 07803734579</p>
+<p>📱 07838695022</p>
+
+<a class="whatsapp"
+href="https://wa.me/9647803734579?text=السلام%20عليكم،%20أريد%20الاشتراك%20في%20فلاح%20ستور">
+تواصل عبر واتساب
+</a>
+
+</section>
+
+<footer>
+© 2026 فلاح ستور — جميع الحقوق محفوظة
+</footer>
+<section><section style="padding:35px 20px;text-align:center;">
+  <div style="max-width:500px;margin:auto;background:#111827;border:1px solid #263244;border-radius:20px;padding:25px;box-shadow:0 10px 30px rgba(0,0,0,.25);">
+
+    <div style="font-size:38px;margin-bottom:8px;">💳</div>
+
+    <h2 style="margin-bottom:8px;color:#fff;">الدفع الإلكتروني</h2>
+
+    <p style="color:#b8c1d1;margin-bottom:20px;">
+      ادفع اشتراكك بسهولة وأمان
+    </p>
+
+    <img src="Visa-vs-Mastercard.jpg"
+         alt="طرق الدفع الإلكتروني"
+         style="width:100%;max-width:300px;border-radius:14px;display:block;margin:0 auto 18px;">
+
+    <div style="background:#0b0f19;border-radius:12px;padding:12px;color:#00d084;font-weight:bold;">
+      Visa • Mastercard
+    </div>
+
+  </div>
+</section>
+ 
+
+</section>
+
+
+
+<div style="width:100%; max-width:1000px; margin:20px auto; overflow:hidden; border-radius:18px;">
+  <img src="hero.png" style="width:100%; display:block; border-radius:18px;">
+</div>
+<section style="padding:30px 15px; max-width:900px; margin:auto;">
+  <div style="background:#111827; border-radius:18px; padding:25px; text-align:center; color:white;">
+    <h2>🚀 زيادة المتابعين ودعم الحسابات</h2>
+    <p>إنستغرام • فيسبوك • تيك توك • تيليغرام</p>
+    <p style="font-weight:bold;">🔥 متابعين حقيقيين ودعم مستمر</p>
+
+    <div style="margin-top:20px;">
+      <button onclick="addToCart('1000 متابع - دعم الحسابات',10000)">🛒 1000 متابع - 10,000 د.ع</button>
+      <button onclick="addToCart('2000 متابع - دعم الحسابات',15000)">🛒 2000 متابع - 15,000 د.ع</button>
+      <button onclick="addToCart('3000 متابع - دعم الحسابات',20000)">🛒 3000 متابع - 20,000 د.ع</button>
+    </div>
+
+    <p style="margin-top:20px;">🎁 عروض خاصة لأصحاب البيجات والحسابات</p>
+  </div>
+</section>
+
+</div>
+</section>
+<div class="slider">
+  <img src="final-1.jpg" class="slide active">
+  <img src="final-2.jpg" class="slide">
+  <img src="final-3.jpg" class="slide">
+  <img src="final-4.jpg" class="slide">
+  <img src="final-5.jpg" class="slide">
+  <img src="final-6.jpg" class="slide">
+</div>
+
+<style>
+.slider {
+  width: 100%;
+  max-width: 1100px;
+  margin: 25px auto;
+  overflow: hidden;
+  border-radius: 18px;
+}
+
+.slide {
+  width: 100%;
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+</style>
+
+<script>
+let current = 0;
+const slides = document.querySelectorAll('.slide');
+
+setInterval(() => {
+  slides[current].classList.remove('active');
+  current = (current + 1) % slides.length;
+  slides[current].classList.add('active');
+}, 4000);
+</script>
+
+<!-- FALAH STORE CART -->
+<div id="cart-button" onclick="toggleCart()">
+🛒 السلة (<span id="cart-count">0</span>)
+</div>
+
+<div id="cart-box">
+  <div class="cart-header">
+    <h2>🛒 سلة المشتريات</h2>
+    <button onclick="toggleCart()">✕</button>
+  </div>
+
+  <div id="cart-items">
+    <p>السلة فارغة</p>
+  </div>
+
+  <div class="cart-footer">
+    <strong>المجموع: <span id="cart-total">0 د.ع</span></strong>
+    <button onclick="sendOrder()">إتمام الطلب عبر واتساب</button>
+  </div>
+</div>
+
+<style>
+#cart-button{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  z-index:9999;
+  background:#00d084;
+  color:#07100c;
+  padding:12px 18px;
+  border-radius:30px;
+  font-weight:bold;
+  cursor:pointer;
+  box-shadow:0 8px 25px rgba(0,0,0,.35);
+}
+
+#cart-box{
+  display:none;
+  position:fixed;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:92%;
+  max-width:480px;
+  max-height:80vh;
+  overflow:auto;
+  background:#111827;
+  color:white;
+  z-index:10000;
+  border:1px solid #263244;
+  border-radius:20px;
+  padding:20px;
+  box-shadow:0 20px 60px rgba(0,0,0,.6);
+}
+
+.cart-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:20px;
+}
+
+.cart-header button{
+  background:#ef4444;
+  color:white;
+  border:0;
+  border-radius:8px;
+  padding:7px 12px;
+  cursor:pointer;
+}
+
+.cart-item{
+  background:#0b0f19;
+  padding:12px;
+  margin-bottom:10px;
+  border-radius:12px;
+  display:grid;
+  grid-template-columns:1fr auto auto auto;
+  gap:8px;
+  align-items:center;
+}
+
+.cart-item button{
+  background:#00d084;
+  border:0;
+  border-radius:6px;
+  padding:4px 9px;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+.cart-footer{
+  border-top:1px solid #263244;
+  margin-top:15px;
+  padding-top:15px;
+}
+
+.cart-footer button{
+  width:100%;
+  margin-top:15px;
+  padding:13px;
+  border:0;
+  border-radius:10px;
+  background:#00d084;
+  color:#07100c;
+  font-weight:bold;
+  cursor:pointer;
+}
+</style>
+
+<script src="cart.js"></script>
+
+<script>
+function toggleCart(){
+  const box = document.getElementById("cart-box");
+  box.style.display =
+    box.style.display === "block" ? "none" : "block";
+}
+</script>
+
+
+
+<script>
+document.querySelectorAll('.program-card').forEach(function(card) {
+  card.addEventListener('click', function(e) {
+
+    /* لا نغلق البطاقة عند الضغط على زر الاشتراك */
+    if (e.target.closest('button, a')) return;
+
+    /* إذا البطاقة تحتوي أسعار، افتحها */
+    const prices = card.querySelector('.program-prices');
+    if (prices) {
+      card.classList.toggle('open');
+    }
+  });
+});
+</script>
+
+
+<script>
+document.querySelectorAll('.category-title').forEach(function(title) {
+  const content = title.nextElementSibling;
+
+  if (content && content.classList.contains('program-cards')) {
+    content.classList.add('collapsible-content');
+
+    title.classList.add('collapsible-title');
+
+    title.addEventListener('click', function() {
+      title.classList.toggle('open');
+      content.classList.toggle('open');
+    });
+  }
+});
+</script>
+
+</body>
+</html>
